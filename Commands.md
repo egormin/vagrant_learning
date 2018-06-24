@@ -39,3 +39,10 @@ vagrant box add geerlingguy/centos7
 ```
 
 
+Show where vagrant keeps private keys:
+```
+vagrant ssh-config test| grep IdentityFile
+```
+
+
+
